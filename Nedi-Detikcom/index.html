@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karir Detik.com - Bergabunglah dengan Tim Kami</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">
+                <i class="fas fa-newspaper me-2"></i>Karir Detik.com
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jobs">Lowongan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">
+                        Bergabunglah dengan <span class="text-primary">Tim Detik.com</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Wujudkan impian kariermu di media digital terdepan Indonesia. 
+                        Temukan peluang karier yang sesuai dengan passion dan kemampuanmu.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#jobs" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-search me-2"></i>Cari Lowongan
+                        </a>
+                        <a href="#about" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-info-circle me-2"></i>Pelajari Lebih Lanjut
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image">
+                        <i class="fas fa-users fa-10x text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <h3 class="stat-number text-primary">500+</h3>
+                        <p class="stat-label">Karyawan</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <h3 class="stat-number text-primary">50+</h3>
+                        <p class="stat-label">Posisi Tersedia</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <h3 class="stat-number text-primary">25+</h3>
+                        <p class="stat-label">Tahun Pengalaman</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <h3 class="stat-number text-primary">100+</h3>
+                        <p class="stat-label">Kota di Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs" class="jobs-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Lowongan Kerja Terbaru</h2>
+                <p class="section-subtitle">Temukan posisi yang sesuai dengan keahlian dan minatmu</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h5 class="job-title">Frontend Developer</h5>
+                            <span class="job-type badge bg-primary">Full-time</span>
+                        </div>
+                        <div class="job-details">
+                            <p><i class="fas fa-map-marker-alt me-2"></i>Jakarta</p>
+                            <p><i class="fas fa-briefcase me-2"></i>2-3 tahun</p>
+                            <p class="job-description">
+                                Mengembangkan antarmuka pengguna yang responsif dan interaktif menggunakan React.js.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary w-100">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h5 class="job-title">Backend Developer</h5>
+                            <span class="job-type badge bg-success">Full-time</span>
+                        </div>
+                        <div class="job-details">
+                            <p><i class="fas fa-map-marker-alt me-2"></i>Jakarta</p>
+                            <p><i class="fas fa-briefcase me-2"></i>3-5 tahun</p>
+                            <p class="job-description">
+                                Membangun dan memelihara sistem backend yang scalable menggunakan Node.js.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary w-100">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h5 class="job-title">Content Writer</h5>
+                            <span class="job-type badge bg-warning">Part-time</span>
+                        </div>
+                        <div class="job-details">
+                            <p><i class="fas fa-map-marker-alt me-2"></i>Remote</p>
+                            <p><i class="fas fa-briefcase me-2"></i>1-2 tahun</p>
+                            <p class="job-description">
+                                Menulis konten berkualitas tinggi untuk berbagai platform digital.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary w-100">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary btn-lg">Lihat Semua Lowongan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Mengapa Bergabung dengan Detik.com?</h2>
+                    <p class="about-text">
+                        Detik.com adalah platform media digital terdepan di Indonesia yang telah melayani jutaan pembaca selama lebih dari 25 tahun.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-primary me-3"></i>
+                            <span>Lingkungan kerja yang inovatif</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-primary me-3"></i>
+                            <span>Kesempatan pengembangan karir</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-primary me-3"></i>
+                            <span>Tim yang kolaboratif</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle text-primary me-3"></i>
+                            <span>Teknologi terdepan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="about-image">
+                        <i class="fas fa-building fa-10x text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Benefit & Fasilitas</h2>
+                <p class="section-subtitle">Kami memberikan yang terbaik untuk tim kami</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="benefit-card text-center">
+                        <div class="benefit-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h6 class="benefit-title">Asuransi Kesehatan</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="benefit-card text-center">
+                        <div class="benefit-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h6 class="benefit-title">Pelatihan</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="benefit-card text-center">
+                        <div class="benefit-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h6 class="benefit-title">Work From Home</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="benefit-card text-center">
+                        <div class="benefit-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h6 class="benefit-title">Makan Siang</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Hubungi Kami</h2>
+                <p class="section-subtitle">Ada pertanyaan? Tim HR kami siap membantu</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <h6>Email</h6>
+                        <p>nediantirellya@detik.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <h6>Telepon</h6>
+                        <p>+62 878 8075 8939</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mb-4">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <h6>Alamat</h6>
+                        <p>Jakarta Selatan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Detik.com. All rights reserved.</p>
+                    <p class="mb-0">&copy; By : Nedianti Rellya</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
